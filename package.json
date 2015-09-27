@@ -1,6 +1,6 @@
 {
   "name": "json5stream",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Streaming json5 parsing",
   "main": "index.js",
   "scripts": {
