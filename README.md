@@ -17,6 +17,8 @@ var json5stream = require( "json5stream" );
 
 fs.createReadStream( "somefile.json5" )
   .pipe( json5stream() )
-  .pipe( process.stdout );
+  .on( "data", function ( d ) {
+      // do something with it.
+  });
 
 ```
