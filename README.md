@@ -1,6 +1,8 @@
 # json5stream
 
-[JSON5](http://json5.org/) is ([arguably](https://news.ycombinator.com/item?id=4031699)) awesome. 
+Streaming json5 parsing
+
+> [JSON5](http://json5.org/) is awesome! <br />Actually, [some may disagree](https://news.ycombinator.com/item?id=4031699).
 
 Similar to [jsonstream](https://www.npmjs.com/package/jsonstream), this library is a wrapper around the JSON5.parse function to support streaming data into the parser.
 
@@ -18,6 +20,3 @@ fs.createReadStream( "somefile.json5" )
   .pipe( process.stdout );
 
 ```
-
-
-
